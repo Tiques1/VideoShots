@@ -30,17 +30,17 @@ For the reason that neither pyinstaller nor auto-py-to-exe can create a working 
 ## Install python
 Latest on this moment 3.12.2 version is working
 ## Install dependencies
-Don't do this in a virtual environment because it won't work. (idk why)
-If all goes wrong (idk why), don't specify versions in requirements.txt
+Don't do this in a virtual environment because it won't work. (idk why)  
+If all goes wrong (idk why), don't specify versions in requirements.txt  
 ```
 pip install -r requirements.txt
 ```
 ## Create vbs script and move it in startup folder
-Simpliest way to autorun this program. Running through windows services are not working, even if c# script and service itself working correctly. I think the program doesn't see when I press key combinations (idk why)
+Simpliest way to autorun this program. Running through windows services are not working, even if c# script and service itself working correctly. I think the program doesn't see when I press key combinations (idk why)  
 
-Win + R
-shell:startup
-Make there script.vbs
+Win + R  
+shell:startup  
+Make there script.vbs  
 ```
 Set WshShell = WScript.CreateObject("WScript.Shell")
 Return = WshShell.Run("python D:\VideoShots\main.py", 0, false)
