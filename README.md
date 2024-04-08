@@ -37,6 +37,7 @@ pip install -r requirements.txt
 ```
 ## Create vbs script and move it in startup folder
 Simpliest way to autorun this program. Running through windows services are not working, even if c# script and service itself working correctly. I think the program doesn't see when I press key combinations (idk why)
+
 Win + R
 shell:startup
 Make there script.vbs
