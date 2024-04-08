@@ -1,8 +1,8 @@
-numpy
-pynput
-keyboard
-opencv-python
-pyautogui
-imageio
-imageio[ffmpeg]
+numpy~=1.26.4
+pynput~=1.7.6
+keyboard~=0.13.5
+opencv-python~=4.9.0.80
+pyautogui~=0.9.54
+imageio~=2.26.1
+imageio[ffmpeg]~=0.4.9
 imageio[pyav]
