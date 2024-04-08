@@ -2,6 +2,7 @@ import activator
 import recorder
 import keyboard
 import converter
+import time
 
 def main():
 	activator = activator.Activator()
